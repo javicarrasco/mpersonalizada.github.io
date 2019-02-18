@@ -222,7 +222,7 @@ figure {
 }
 @media screen and (max-width: 1200px) {
   #ico-aside {
-    width: 30%;
+    width: 25%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -374,7 +374,7 @@ figure {
 }
 @media screen and (max-width: 1200px) {
   #ico-main {
-    width: 70%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 768px) {
