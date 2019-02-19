@@ -53,6 +53,7 @@ colores:
 dorado= #ffcc00
 dorado activo= #ff5e00
 celeste= #09C3DC
+azul= #2d83c0
 gris claro= #f5f4f1
 gris oscuro= #D3D3D3
 *
@@ -107,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 7px 0;
+  margin: 0 0 0 0;
 }
 h1 {
   font-size: 60px;
@@ -138,6 +139,7 @@ h4 {
 h5 {
   font-size: 18px;
   line-height: 1em;
+	margin: 0 0 7px 0;
 }
 h6 {
   color: white;
@@ -145,6 +147,7 @@ h6 {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4em;
+	margin: 7px 0;
 }
 figure {
   margin-bottom: 1.5em;
@@ -163,6 +166,14 @@ figure {
 }
 .dorado{
   color: #ffcc00;
+}
+.bgdorado{
+  font-weight: 700;
+  color: #2d83c0;
+  letter-spacing: 1.5px;
+  background-color: #ffcc00;
+  padding-left: 3px;
+  padding-right: 2px;
 }
 .bgceleste{
   font-weight: 400;
@@ -328,7 +339,7 @@ figure {
 }
 #ico-aside .ico-footer {
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   font-size: 14px;
   text-align: center;
   width: 100%;
@@ -386,7 +397,7 @@ figure {
   position: relative;
   width: 85%;
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #ico-main .ico-narrow-content {
@@ -502,6 +513,10 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-testimonial .item .author {
   font-size: 16px;
   display: block;
+}
+.sombra {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    filter:         drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
 }
 
 .ico-counters {
