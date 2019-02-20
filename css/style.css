@@ -207,7 +207,18 @@ figure {
   color: #fff;
   background: #ffcc00;
 }
-
+.flota:hover{
+    transform: scale(1.05);
+		filter: drop-shadow(5px 5px 5px #D3D3D3);
+}
+.flota{
+    display: block;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+}
 #ico-page {
   width: 100%;
   overflow: hidden;
@@ -543,7 +554,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 .ico-cards {
   padding: 1em 0;
-  background: #e6e6e6;
+  background: #f5f4f1;
 }
 @media screen and (max-width: 768px) {
   .ico-cards {
@@ -588,7 +599,8 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   font-size: 12px;
   letter-spacing: .2em;
   padding: 4px 8px;
-  background: #ebebeb;
+	color: white;
+  background: #09C3DC;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
