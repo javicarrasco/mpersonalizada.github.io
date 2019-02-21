@@ -210,6 +210,7 @@ figure {
 .flota:hover{
     transform: scale(1.05);
 		filter: drop-shadow(5px 5px 5px #D3D3D3);
+		-webkit-filter: drop-shadow(5px 5px 5px #D3D3D3);
 }
 .flota{
     display: block;
@@ -485,6 +486,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
     padding: 3em 0;
   }
 }
+
 .ico-testimonial .item {
   color: white;
   padding-left: 3em;
@@ -525,11 +527,6 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   font-size: 16px;
   display: block;
 }
-.sombra {
-    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
-    filter:         drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
-}
-
 .ico-counters {
   padding: 0em 0;
   background: powderblue;
@@ -1172,7 +1169,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 3840px) {
   .col-xxs-12 {
     float: none;
     width: 100%;
