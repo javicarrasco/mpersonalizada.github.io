@@ -477,7 +477,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 
 .ico-testimonial {
   padding: 3em 0;
-  background: #ffcc00;
+	background: url("images/BGoscuro.jpg");
 }
 @media screen and (max-width: 768px) {
   .ico-testimonial {
@@ -501,7 +501,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 .ico-testimonial .item figure img {
   max-width: inherit;
-  width: 90px;
+  width: 50px;
   margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -509,7 +509,9 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   border-radius: 50%;
 }
 .ico-testimonial .item p {
-  font-size: 30px;
+/*
+	font-size: 30px;
+*/
 }
 @media screen and (max-width: 768px) {
   .ico-testimonial .item p {
@@ -524,6 +526,10 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-testimonial .item .author {
   font-size: 16px;
   display: block;
+}
+.ico-testimonial .item .flota {
+	width: 350px;
+ 	display: block;
 }
 .ico-counters {
   padding: 0em 0;
@@ -718,6 +724,16 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   letter-spacing: .2em;
   text-transform: uppercase;
 }
+.ico-heading-colored {
+  color: #da1212;
+}
+.ico-heading {
+  font-size: 45px;
+  margin-bottom: 1em;
+}
+.ico-heading.ico-light {
+  color: #fff;
+}
 .ico-heading span {
   display: block;
 }
@@ -894,7 +910,22 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   height: 10px;
   border: 2px solid #fff;
 }
-
+.btntestimonial {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Roboto", Arial, sans-serif;
+	color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px !important;
+}
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
